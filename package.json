@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "reverse-db": "node ./lib/cmd.js"
+    "reverse-db": "./lib/cmd.js"
   },
   "dependencies": {
     "fs-extra": "^8.1.0",
