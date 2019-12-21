@@ -1,14 +1,16 @@
 {
   "name": "reverse-db",
   "license": "MIT",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "reverse-db": "node ./lib/cli.js"
   },
-  "bin": {
-    "reverse-db": "./lib/cmd.js"
+  "bin": "./lib/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:a5doc/reverse-db.git"
   },
   "dependencies": {
     "fs-extra": "^8.1.0",
